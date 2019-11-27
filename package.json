@@ -8,7 +8,7 @@
   },
   "workspaces": {
     "packages": [
-      "packages/apps/*",
+      "packages/web",
       "packages/components",
       "packages/footer-service",
       "packages/api",
