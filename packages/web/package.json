@@ -1,11 +1,15 @@
 {
   "name": "web",
   "version": "0.1.0",
+  "homepage": "",
   "private": true,
   "dependencies": {
+    "@pr/components": "1.0.0",
+    "@pr/service-api": "1.0.0",
+    "@react-workspaces/react-scripts": "3.0.1-alpha-07",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-router-dom": "^5.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
