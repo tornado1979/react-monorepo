@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.main > .col-1 {
+  flex: 0 0 20vw;
+  } 
+
+.main > .col-2 {
+    flex:1;
+    background: beige;
+  }

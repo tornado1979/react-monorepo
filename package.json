@@ -4,14 +4,14 @@
   "scripts": {
     "test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true lerna run test -- --coverage",
     "deploy": "FORCE_COLOR=true lerna run version && lerna run deploy",
-    "bootstrap":"lerna exec npm install"
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "storybook": "cd packages/storybook && yarn storybook"
   },
   "workspaces": {
     "packages": [
       "packages/web",
       "packages/components",
-      "packages/footer-service",
-      "packages/api",
+      "packages/service-api",
       "packages/storybook"
     ],
     "nohoist": [
@@ -26,8 +26,10 @@
     "prettier": "^1.16.1"
   },
   "dependencies": {
+    "webpack": "4.29.6",
     "babel-eslint": "10.0.1",
-    "eslint": "5.16.0",
+    "eslint": "^5.16.0",
+    "jest": "24.7.1",
     "eslint-config-prettier": "^4.2.0",
     "eslint-config-react-app": "^4.0.0",
     "eslint-config-xo": "^0.26.0",
