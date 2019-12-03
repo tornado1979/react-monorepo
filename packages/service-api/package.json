@@ -1,0 +1,31 @@
+{
+  "name": "@pr/service-api",
+  "version": "1.0.0",
+  "description": "header service",
+  "author": "Theodoros Itzaris <theo.itzaris@circusstreet.com>",
+  "homepage": "https://github.com/tornado1979/workspace-playground#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "main:src": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tornado1979/workspace-playground.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/tornado1979/workspace-playground/issues"
+  },
+  "keywords": []
+}
