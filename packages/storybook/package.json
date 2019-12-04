@@ -1,7 +1,7 @@
 {
   "name": "@pr/storybook",
   "version": "1.0.0",
-  "private":true,
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,11 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pr/components":"1.0.0",
-    "@babel/core": "^7.2.2",
+    "@babel/core": "^7.2.4",
+    "@pr/components": "1.0.0",
     "@react-workspaces/react-scripts": "3.0.1-alpha-07",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.0.6",
     "cross-env": "5.0.5",
+    "moment": "2.24.0",
+    "node-sass": "^4.13.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.3"
   },

@@ -16,7 +16,6 @@ export const fetchData = async () => {
     try{
         response = await fetch(`${LESSON_CHAPTERS_ENDPOINT}${lessonId}`,{headers})
         const data = await response.json()
-        console.log('response',response)
         if(response.status === 401){
             return JSON.stringify(mockData)
         }
