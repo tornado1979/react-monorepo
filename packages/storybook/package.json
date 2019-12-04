@@ -1,6 +1,6 @@
 {
   "name": "@pr/storybook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.2.4",
-    "@pr/components": "1.0.0",
+    "@pr/components": "^1.1.0",
     "@react-workspaces/react-scripts": "3.0.1-alpha-07",
     "babel-loader": "^8.0.6",
     "cross-env": "5.0.5",

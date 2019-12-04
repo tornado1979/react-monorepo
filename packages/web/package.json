@@ -1,11 +1,11 @@
 {
   "name": "web",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "",
   "private": true,
   "dependencies": {
-    "@pr/components": "1.0.0",
-    "@pr/service-api": "1.0.0",
+    "@pr/components": "^1.1.0",
+    "@pr/service-api": "^1.0.1",
     "@react-workspaces/react-scripts": "3.0.1-alpha-07",
     "classnames": "^2.2.6",
     "node-sass": "^4.13.0",
