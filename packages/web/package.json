@@ -1,7 +1,7 @@
 {
   "name": "web",
   "version": "1.0.0",
-  "homepage": "",
+  "homepage": "http://tornado1979.github.io/react-monorepo/",
   "private": true,
   "dependencies": {
     "@pr/components": "^1.1.0",
