@@ -1,3 +1,5 @@
+@import "~video-react/styles/scss/video-react"; // or import scss
+
 .main {
     display: flex;
     flex-flow: column;
@@ -14,7 +16,7 @@
   max-width: 80rem;
 }
 .col-1 {
-  flex: 0 0 15vw;
+  //flex: 0 0 15vw;
   width:100%;
   max-width: 320px;
   } 

@@ -5,7 +5,8 @@
     "test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true lerna run test -- --coverage",
     "deploy": "FORCE_COLOR=true lerna run version && lerna run deploy",
     "bootstrap": "lerna bootstrap --use-workspaces",
-    "storybook": "cd packages/storybook && yarn storybook"
+    "storybook": "cd packages/storybook && yarn storybook",
+    "web": "cd packages/web && yarn start"
   },
   "workspaces": {
     "packages": [

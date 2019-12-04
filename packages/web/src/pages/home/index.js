@@ -14,7 +14,7 @@ import {
     VolumeMenuButton
   } from 'video-react';
 
-import './index.css'
+import './index.scss'
 
 const defaultData = [{
     _id: 1234,
