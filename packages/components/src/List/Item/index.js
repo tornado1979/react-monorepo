@@ -1,13 +1,33 @@
-import React from "react";
+import React, { useState, useContext } from "react";
 //import { Text, View } from "react-native";
+import classNames from 'classnames'
+import './index.scss'
 
-import './index.css'
+const Item = ({sceneItemSelected, scene, click, ChapterName, ChapterDescr}) => {
+  //const [isSelected, setSelected] = useState(true) // default selected 1st scene
 
-const Item = ({scene}) => {
+    function setSelected(sceneId){
+      click({
+        sceneId,
+        ChapterName,
+        ChapterDescr
+      })
+    }
+
+    const style = classNames({
+      "scene": true,
+      "scene-item-selected": sceneItemSelected === scene.id 
+    });
+
     return (
-      <div className="item">
-        <span>{scene.name}</span>
-      </div>
+      <li className={style} key={scene.id} onClick={() => setSelected(scene.id)} >
+        <div className="scene-icon">
+											<div className="circle"></div>
+										</div>
+										<div className="scene-info">
+											<span>{scene.name}</span>
+										</div>
+      </li>
     );
   };
 

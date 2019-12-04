@@ -5,11 +5,11 @@ import List from '.';
 
 const data = [{
   _id: 1234,
-  name: 'lesson name',
+  name: 'Chapter name',
   role: 'lesson description',
   scenes:[{
     id: 123,
-    name: 'chapter name'
+    name: 'Scene name'
   }]
 }]
   

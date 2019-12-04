@@ -1,0 +1,9 @@
+.panel{
+  border: 1px solid #cecece;
+  border-radius: 3px;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0 20px;
+}

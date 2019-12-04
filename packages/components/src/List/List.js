@@ -1,15 +1,21 @@
 import React from "react";
 
 import Category from './Category'
-import './list.css'
+import './list.scss'
 
-const List = ({data}) => {
-    const list = data.map(chapter => <Category chapter={chapter} key={chapter._id} />)
+const List = ({data, handleClick, sceneItemSelected}) => {
+    const list = data.map(chapter => <Category chapter={chapter} key={chapter._id} click={handleClick} sceneItemSelected={sceneItemSelected} />)
     return (
-      <div className="list">
-        <div className="title">Lesson name</div>
-        {list}
-      </div>
+      <>
+        <div className="header">
+          <div className="title">Lesson name</div>
+        </div>
+        <div className="list">
+          <ul>
+            {list}
+          </ul>
+        </div>
+      </>
     );
   };
 

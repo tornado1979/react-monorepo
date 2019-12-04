@@ -1,0 +1,18 @@
+
+.list {
+    height: auto;
+    border: 1px solid #eee;
+    margin-right: 10px;
+    background-color: #fff;
+    overflow: auto;
+    max-height: 500px;
+
+    ul {
+        padding: 1.2em;
+        margin-top: 0;
+    }
+}
+
+.header{
+    margin-right: 10px;
+}

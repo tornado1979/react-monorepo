@@ -1,0 +1,60 @@
+
+.scene{
+    display: block;
+    border-radius: 3px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    &.disabled{
+        opacity: 0.5;
+        cursor: initial;
+    }
+    .scene-icon{
+        display: inline-block;
+        width: 35px;
+        position: absolute;
+        top: 50%;
+        margin-top: -10px;
+        left: 10px;
+        .circle{
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            border: 2px solid #cecece;
+            background-color: #fbfbfb;
+            position: relative;
+            &.completed{
+                border: 2px solid #62d182;
+                //@include fontastic-icon-after(check);
+                font-size: 13px;
+                color: #62d182;
+
+                &:after{
+                    position: absolute;
+                    top: 2px;
+                    left: 2px;
+                }
+            }
+        }
+    }
+    .scene-info{
+        display: inline-block;
+        max-width: 208px;
+        padding-left: 35px;
+        a{
+            text-decoration: none;
+            color: #0a0a0a;
+            position: relative;
+            display: block;
+            overflow: ellipsis;
+        }
+    }
+    &.scene-item-selected{
+        color: #FFF;
+        background-color: #62d182;
+        a{
+            color: #FFF;
+        }
+    }
+}
