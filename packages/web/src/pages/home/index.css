@@ -1,14 +1,26 @@
 .main {
     display: flex;
+    flex-flow: column;
     flex: 1;
     padding: 20px;
+    justify-content: center;
 }
 
-.main > .col-1 {
-  flex: 0 0 20vw;
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 80rem;
+}
+.col-1 {
+  flex: 0 0 15vw;
+  width:100%;
+  max-width: 320px;
   } 
 
-.main > .col-2 {
+.col-2 {
     flex:1;
-    background: beige;
+    width: 100%;
+    max-width: 940px;
   }
